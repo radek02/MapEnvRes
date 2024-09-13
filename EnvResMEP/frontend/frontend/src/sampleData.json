@@ -1,0 +1,92 @@
+{
+    "environments": [
+        {"id": 1, "name": "Dev1"},
+        {"id": 2, "name": "Dev2"},
+        {"id": 3, "name": "Dev3"},
+        {"id": 4, "name": "QA1"},
+        {"id": 5, "name": "QA2"},
+        {"id": 6, "name": "QA3"}
+    ],
+    "clusters": [
+        {"id": 1, "name": "Profile Services (VMCP services)"},
+        {"id": 2, "name": "Onboarding Services (OBS)"},
+        {"id": 3, "name": "PAS Services (VCA services)"},
+        {"id": 4, "name": "VDCA Gateway (VDCA external)"},
+        {"id": 5, "name": "DPS Services"},
+        {"id": 6, "name": "Mobile Services"},
+        {"id": 7, "name": "PIPS"},
+        {"id": 8, "name": "VDCA Mock bank"},
+        {"id": 9, "name": "VDES"},
+        {"id": 10, "name": "VGES"},
+        {"id": 11, "name": "VMACS"},
+        {"id": 12, "name": "VMPRS"}
+    ],
+    "userGroups": [
+        {"id": 1, "name": "MEP BE Warsaw"},
+        {"id": 2, "name": "MEP BE Austin"},
+        {"id": 3, "name": "MEP BE Bangalore"},
+        {"id": 4, "name": "MEP FE"},
+        {"id": 5, "name": "RE"},
+        {"id": 6, "name": "RISE"}
+    ],
+    "users": [
+        {"id": 1, "name": "Radek M."},
+        {"id": 2, "name": "Tomek W."},
+        {"id": 3, "name": "Darek D."},
+        {"id": 4, "name": "Adam K."},
+        {"id": 5, "name": "Andrzej L."},
+        {"id": 6, "name": "Damian W."}
+    ],
+    "reservationsByEnvironmentId_1": [
+        {
+            "id": 1,
+            "userGroupID": 1,
+            "environmentID": 1,
+            "clusterID": 1,
+            "startTime": "2024-08-15T13:45:30Z",
+            "endTime": "2024-08-15T15:45:30Z"
+        },
+        {
+            "id": 2,
+            "userGroupID": 2,
+            "environmentID": 1,
+            "clusterID": 2,
+            "startTime": "2024-08-15T14:45:30",
+            "endTime": "2024-08-15T15:45:30"
+        },
+        {
+            "id": 3,
+            "userGroupID": 2,
+            "environmentID": 1,
+            "clusterID": 2,
+            "startTime": "2024-08-15T12:15:00",
+            "endTime": "2024-08-15T12:30:00"
+        }
+    ],
+    "reservationsByClusterId_1": [
+        {
+            "id": 1,
+            "userGroupID": 1,
+            "environmentID": 1,
+            "clusterID": 1,
+            "startTime": "2024-08-15T13:45:30Z",
+            "endTime": "2024-08-15T15:45:30Z"
+        },
+        {
+            "id": 2,
+            "userGroupID": 2,
+            "environmentID": 2,
+            "clusterID": 1,
+            "startTime": "2024-08-15T14:45:30",
+            "endTime": "2024-08-15T16:45:30"
+        },
+        {
+            "id": 3,
+            "userGroupID": 3,
+            "environmentID": 3,
+            "clusterID": 1,
+            "startTime": "2024-08-15T12:15:00",
+            "endTime": "2024-08-15T15:15:00"
+        }
+    ]
+}
